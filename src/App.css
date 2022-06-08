@@ -33,3 +33,40 @@ body {
 	padding: 20px;
 	text-align: center;
 }
+
+.ml-15 {
+	margin-left: 15px;
+}
+
+.mt-50 {
+	margin-top: 50px;
+}
+
+.color-yellow {
+	color: yellow;
+}
+
+.movie-img {
+	border-radius: 50px;
+}
+
+.text-opa {
+	opacity: 0.8;
+}
+
+.color-aqua {
+	color: #46E1FF;
+	opacity: 1;
+}
+
+.plot {
+	font-size: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+.mar-5 {
+	margin: 5px;
+}
