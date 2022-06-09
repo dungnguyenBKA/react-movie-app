@@ -93,10 +93,10 @@ function HomePage() {
       >
         {
           loading ?
-            <div>Loading...</div>
+            <div className="ml-15">Loading...</div>
             :
             movies.length === 0 ?
-              searchValue.length === 0 ? <div>Search in search bar</div> : <div>No Result for {searchValue}</div>
+              searchValue.length === 0 ? <div className="ml-15">Search in search bar</div> : <div className="ml-15">No Result for {searchValue}</div>
               :
               <MovieList
                 movies={movies}
