@@ -12,7 +12,7 @@ function DetailPage() {
     try {
       setLoading(true)
       const url = `http://www.omdbapi.com/?i=${id}&apikey=263d22d8`;
-      console.log(url);
+      // console.log(url);
       const response = await fetch(url);
       const responseJson = await response.json();
       if (mounted) {

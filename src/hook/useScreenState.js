@@ -3,6 +3,7 @@ import {useEffect, useState} from "react";
 function useScreenState() {
   const [loading, setLoading] = useState(false)
   const [mounted, setMounted] = useState(true)
+  const [error, setError] = useState(undefined)
 
   useEffect(() => {
     return () => {
@@ -13,7 +14,7 @@ function useScreenState() {
   return {
     mounted,
     loading,
-    setLoading,
+    setLoading
   }
 }
 
