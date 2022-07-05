@@ -30,6 +30,10 @@ function DetailPage() {
     })
   }, [])
 
+  if(loading) {
+    return <div>Loading</div>
+  }
+
   if (!movie) {
     return <div>An Error has Occurred</div>
   }

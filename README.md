@@ -6,7 +6,7 @@ Nguyen Minh Dung (dungnguyenBKA)
 
 ## Run local app
 ```
-git pull https://github.com/tranxuantruongjk/movie_intro.git
+git pull https://github.com/dungnguyenBKA/react-movie-app.git
 cd movie_intro
 npm i
 npm start
